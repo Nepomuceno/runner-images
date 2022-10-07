@@ -39,7 +39,7 @@ choco install git -params '"/GitAndUnixToolsOnPath"'
 
 Install the Azure Az PowerShell module - https://docs.microsoft.com/en-us/powershell/azure/install-az-ps.
 ```
-Install-Module -Name Az -Repository PSGallery -Force
+Install-Module -Name Az -Repository PSGallery -AllowClobber -Force
 ```
 
 Install Azure CLI - https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&tabs=azure-cli.
